@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - ball
+  - brick
+  - speed_power_up
   layers:
   - Default
   - TransparentFX
@@ -44,4 +46,7 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: power ups
+    uniqueID: 2431043827
     locked: 0

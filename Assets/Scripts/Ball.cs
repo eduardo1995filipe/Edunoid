@@ -1,18 +1,29 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Ball : MonoBehaviour {
 
+	public static float DEFAULT_BALL_SPEED = 100.0f;
+	public static int BRICK_VALUE = 100;
+
+	public int points;
+	public Text pointsText;
 	public float speed;
 	public Rigidbody2D rb;
 
 	// Use this for initialization
 	void Start () {
-		this.speed = 100.0f;
+		this.pointsText = GameObject.Find ("pointNumberLabel").GetComponent<Text>();
+		this.points = 0;
+		this.speed = DEFAULT_BALL_SPEED;
 		this.rb = GetComponent<Rigidbody2D> ();
 
 		rb.velocity = Vector2.up * speed;
+		Physics2D.IgnoreCollision (GameObject.FindGameObjectWithTag("speed_power_up").GetComponent<Collider2D>(), GetComponent<Collider2D>());
+
 	}
 
 
@@ -33,7 +44,9 @@ public class Ball : MonoBehaviour {
 
         // Set Velocity with dir * speed
 			GetComponent<Rigidbody2D> ().velocity = dir * speed;
-    }
-}
-
+		}
+		else if(col.gameObject.tag == "brick"){
+			this.pointsText.text = (points += BRICK_VALUE).ToString ();
+		}
+	}
 }

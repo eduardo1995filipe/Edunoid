@@ -1,14 +1,17 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\LooseLife.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\RacketMovement.cs">
     <Files>
-      <File FileName="Assets\Scripts\Ball.cs" Line="40" Column="1" />
-      <File FileName="Assets\LooseLife.cs" Line="40" Column="39" />
-      <File FileName="Assets\Scripts\RacketMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Ball.cs" Line="9" Column="2" />
+      <File FileName="Assets\Scripts\LooseLife.cs" Line="20" Column="74" />
+      <File FileName="Assets\Scripts\Brick.cs" Line="10" Column="2" />
+      <File FileName="Assets\Scripts\SpeedPowerUp.cs" Line="10" Column="2" />
+      <File FileName="Assets\Scripts\RacketMovement.cs" Line="28" Column="46" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <AuthorInfo Name="Eduardo" Email="eduardo_95@yahoo.com" Copyright="EduardoBagarrao" Company="" Trademark="" />
 </Properties>
