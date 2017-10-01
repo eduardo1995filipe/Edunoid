@@ -4,46 +4,22 @@ using UnityEngine;
 
 public class RacketMovement : MonoBehaviour {
 
-	//Movement speed
-	public static float DEFAULT_BALL_SPEED = 100.0f;
-	public float speed = 150;
-	public Rigidbody2D ball;
+	public float speed;
+	private bool isEnabled;
 
 	void Start(){
-		this.ball = GameObject.Find ("ball").GetComponent<Rigidbody2D>();
-		Rigidbody2D rb = GetComponent<Rigidbody2D> ();
-		rb.freezeRotation = true;
+		this.isEnabled = true;
+		this.speed = 150.0f;
 	}
 
-	// Update is called once per frame
 	void FixedUpdate () {
-		// Get Horizontal Input
-		float h = Input.GetAxisRaw("Horizontal");
-
-		// Set Velocity (movement direction * speed)
-		GetComponent<Rigidbody2D>().velocity = Vector2.right * h * speed;
-	}
-
-	void OnCollisionEnter2D(Collision2D col) {
-		if(col.gameObject.tag == "speed_power_up"){
-			generateBallSpeed (GameObject.Find("ball"));
-			Destroy (col.gameObject);
+		if(isEnabled){
+		float h = Input.GetAxisRaw("Horizontal"); // Get Horizontal Input
+		GetComponent<Rigidbody2D>().velocity = Vector2.right * h * speed; // Set Velocity (movement direction * speed)
 		}
 	}
 
-	public void generateBallSpeed(GameObject obj){
-		System.Random rand = new System.Random ();
-		setBallSpeed (/*((float)rand.Next(50,250)*/200.0f, obj);
-		StartCoroutine (estabilizeSpeed(obj));
+	public void enable (bool value){
+		this.isEnabled = value;
 	}
-
-	IEnumerator estabilizeSpeed(GameObject obj) {
-		yield return new WaitForSeconds (6);
-		setBallSpeed (DEFAULT_BALL_SPEED, obj);	
-	}
-
-	private void setBallSpeed(float newSpeed, GameObject obj){
-		obj.GetComponent<Ball> ().speed = newSpeed;
-	}
-
 }

@@ -122,7 +122,7 @@ GameObject:
   - component: {fileID: 155609050}
   m_Layer: 0
   m_Name: racket
-  m_TagString: Untagged
+  m_TagString: racket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -139,7 +139,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 150
-  ball: {fileID: 0}
 --- !u!50 &155609051
 Rigidbody2D:
   serializedVersion: 4
@@ -159,7 +158,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 6
 --- !u!61 &155609052
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -234,7 +233,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 155609049}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.85, y: -102.59, z: 0}
+  m_LocalPosition: {x: 0, y: -100, z: 0}
   m_LocalScale: {x: 0.025542174, y: 0.07082636, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1157,7 +1156,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 725569852}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.9, y: -91.3, z: 0}
+  m_LocalPosition: {x: 0, y: -85, z: 0}
   m_LocalScale: {x: 0.03, y: 0.03, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1174,10 +1173,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8102572315059864a9bd03b6e80011cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  points: 0
   pointsText: {fileID: 0}
-  speed: 0
-  rb: {fileID: 0}
+  dir: {x: 0, y: 0}
+  points: 0
 --- !u!1 &769882522
 GameObject:
   m_ObjectHideFlags: 0
@@ -2011,7 +2009,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1113858782}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.9, y: 62.5, z: 0}
+  m_LocalPosition: {x: -338, y: 110, z: 0}
   m_LocalScale: {x: 0.054352775, y: 0.06102014, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2031,7 +2029,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 3
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -2572,10 +2570,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c098a82f55220444b25a01c3c63b03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  platform: {fileID: 0}
-  ball: {fileID: 0}
-  speedPowerUp: {fileID: 0}
-  lifeText: {fileID: 0}
   numLifes: 0
 --- !u!61 &1391336783
 BoxCollider2D:
