@@ -4,10 +4,16 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - ball
-  - brick
+  - text
+  - solid_brick
+  - normal_brick
+  - multi_color_brick
+  - wall
+  - end_life_wall
   - speed_power_up
   - racket
+  - ball
+  - livesLeft
   layers:
   - Default
   - TransparentFX
@@ -42,12 +48,6 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Background
-    uniqueID: 4044715521
-    locked: 0
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: power ups
-    uniqueID: 2431043827
     locked: 0
