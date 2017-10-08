@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\Ball.cs" />
      <Compile Include="Assets\Scripts\Brick.cs" />
      <Compile Include="Assets\Scripts\KillerWall.cs" />
+     <Compile Include="Assets\Scripts\PointPowerUp.cs" />
      <Compile Include="Assets\Scripts\Racket.cs" />
      <Compile Include="Assets\Scripts\SpeedPowerUp.cs" />
  <Reference Include="UnityEngine.UI">

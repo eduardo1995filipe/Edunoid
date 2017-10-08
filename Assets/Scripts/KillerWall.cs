@@ -23,6 +23,7 @@ public class KillerWall : MonoBehaviour {
 			else
 				Destroy (col.gameObject);
 			racket.transform.position = new Vector2 (0, -117);
-		}
+		} else 
+			Destroy (col.gameObject);
 	}
 }

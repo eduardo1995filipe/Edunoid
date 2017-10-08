@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Ball : MonoBehaviour {
 
 	public float speed = 100;
+	public int pointGain = 100;
 	public int points = 0;
 	public Vector2 dir = Vector2.up;
 
@@ -25,7 +26,7 @@ public class Ball : MonoBehaviour {
 			gameObject.transform.position = new Vector2 (0, -106);
 			gameObject.GetComponent<Rigidbody2D> ().velocity = Vector2.up * (speed = 100);
 		} else if(col.gameObject.tag == "normal_brick") {
-			points += 100;
+			points += pointGain;
 			pointsText.text = points.ToString (); 
 		}
 	}
