@@ -1,6 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Resources\Scripts\DensityPowerUp.cs">
+    <Files>
+      <File FileName="Assets\Resources\Scripts\ResizePowerUp.cs" Line="34" Column="4" />
+      <File FileName="Assets\Resources\Scripts\DensityPowerUp.cs" Line="27" Column="26" />
+      <File FileName="Assets\Resources\Scripts\SpeedPowerUp.cs" Line="3" Column="19" />
+      <File FileName="Assets\Resources\Scripts\PointPowerUp.cs" Line="12" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

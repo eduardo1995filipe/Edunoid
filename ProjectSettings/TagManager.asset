@@ -16,6 +16,8 @@ TagManager:
   - livesLeft
   - points
   - point_power_up
+  - resize_power_up
+  - density_power_up
   layers:
   - Default
   - TransparentFX
