@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Resources\Scripts\Ball.cs" />
+     <Compile Include="Assets\Resources\Scripts\BallCollisionManager.cs" />
      <Compile Include="Assets\Resources\Scripts\Brick.cs" />
      <Compile Include="Assets\Resources\Scripts\DensityPowerUp.cs" />
      <Compile Include="Assets\Resources\Scripts\KillerWall.cs" />

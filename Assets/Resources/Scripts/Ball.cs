@@ -9,6 +9,7 @@ public class Ball : MonoBehaviour {
 	public int pointGain = 100;
 	public int points = 0;
 	public Vector2 dir = Vector2.up;
+	public BallCollisionManager.BallDensity ballState = BallCollisionManager.BallDensity.NORMAL;
 
 	public Text pointsText;
 

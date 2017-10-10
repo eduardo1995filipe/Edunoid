@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class DensityPowerUp : MonoBehaviour {
 
+	public GameObject ball;
+
 	// Use this for initialization
 	void Start () {
-		
+		ball = GameObject.FindGameObjectWithTag ("ball");
 	}
 	
 	// Update is called once per frame
@@ -25,6 +27,8 @@ public class DensityPowerUp : MonoBehaviour {
 			Physics2D.IgnoreCollision (col.gameObject.GetComponent<Collider2D> (),GetComponent<Collider2D> ());
 		}else if(col.gameObject.tag == "racket"){
 			//TODO: escolher uma densidade, e atribuir a bola
+			ball.GetComponent<Ball> ().ballState = BallCollisionManager.BallDensity.HARD;
+			ball.GetComponent<SpriteRenderer> ().sprite = Resources.Load<Sprite>("Sprites/ball/Neutral/neutral_ball_4");
 			Destroy (gameObject);
 		}
 	}
