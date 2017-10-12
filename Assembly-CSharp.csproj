@@ -51,15 +51,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Resources\Scripts\Ball.cs" />
-     <Compile Include="Assets\Resources\Scripts\BallCollisionManager.cs" />
-     <Compile Include="Assets\Resources\Scripts\Brick.cs" />
-     <Compile Include="Assets\Resources\Scripts\DensityPowerUp.cs" />
+     <Compile Include="Assets\Resources\Scripts\ball\Ball.cs" />
+     <Compile Include="Assets\Resources\Scripts\ball\BallCollisionManager.cs" />
+     <Compile Include="Assets\Resources\Scripts\brick\Brick.cs" />
+     <Compile Include="Assets\Resources\Scripts\brick\MultiColorBrick.cs" />
      <Compile Include="Assets\Resources\Scripts\KillerWall.cs" />
-     <Compile Include="Assets\Resources\Scripts\PointPowerUp.cs" />
+     <Compile Include="Assets\Resources\Scripts\power up\DensityPowerUp.cs" />
+     <Compile Include="Assets\Resources\Scripts\power up\PointPowerUp.cs" />
+     <Compile Include="Assets\Resources\Scripts\power up\ResizePowerUp.cs" />
+     <Compile Include="Assets\Resources\Scripts\power up\SpeedPowerUp.cs" />
      <Compile Include="Assets\Resources\Scripts\Racket.cs" />
-     <Compile Include="Assets\Resources\Scripts\ResizePowerUp.cs" />
-     <Compile Include="Assets\Resources\Scripts\SpeedPowerUp.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

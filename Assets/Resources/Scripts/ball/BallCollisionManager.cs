@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class BallCollisionManager{
 
@@ -15,6 +16,11 @@ public class BallCollisionManager{
 	private System.Random rand;
 
 //	private static int TOTAL_BRICKS = 96;
+
+	public enum ColorState
+	{
+		NEUTRAL = 1, RED = 2, BLUE = 3, GREEN = 4, YELLOW = 5
+	};
 
 	public enum BrickState
 	{
@@ -89,4 +95,33 @@ public class BallCollisionManager{
 		return rand.Next (min, max);
 	}
 
+	public void changeBallColor(GameObject ball, ColorState state){
+		if(ball.tag == "ball"){
+			Sprite sprite = Resources.Load<Sprite> ("Sprites/ball/Neutral/neutral_ball_2");
+			switch(state){
+			case ColorState.NEUTRAL:
+				break;
+			case ColorState.RED:
+				sprite = Resources.Load<Sprite> ("Sprites/ball/Red/red_ball_2");
+				break;
+			case ColorState.BLUE:
+				sprite = Resources.Load<Sprite> ("Sprites/ball/Blue/blue_ball_2");
+				break;
+			case ColorState.GREEN:
+				sprite = Resources.Load<Sprite> ("Sprites/ball/Green/green_ball_2");
+				break;
+			case ColorState.YELLOW:
+				sprite = Resources.Load<Sprite> ("Sprites/ball/Yellow/yellow_ball_2");
+				break;
+			default:
+				break;
+			}
+			ball.GetComponent<SpriteRenderer> ().sprite = sprite;
+		}
+	}
+		
+	public ColorState getRandomColor(){
+		ColorState[] values = { ColorState.GREEN, ColorState.BLUE, ColorState.RED, ColorState.YELLOW, ColorState.NEUTRAL };
+		return values [getRand (0, values.Length)];
+	}
 }

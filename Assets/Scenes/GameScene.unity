@@ -217,6 +217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 5
   number: 5
   brickState: 1
 --- !u!1 &23817460
@@ -248,6 +249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 2
   number: 96
   brickState: 1
 --- !u!61 &23817462
@@ -439,6 +441,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 3
   number: 16
   brickState: 1
 --- !u!1 &37971754
@@ -567,6 +570,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 5
   number: 66
   brickState: 1
 --- !u!61 &53814589
@@ -648,77 +652,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 74
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &55800089
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 55800091}
-  - component: {fileID: 55800090}
-  m_Layer: 0
-  m_Name: info
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &55800090
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 55800089}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1881472077
-  m_SortingLayer: 2
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 163915466a69b404780138e62f5cce8a, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 233, y: 204}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!4 &55800091
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 55800089}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 171.1, y: -5, z: 0}
-  m_LocalScale: {x: 0.71787107, y: 0.82755405, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 121
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &105313356
 GameObject:
@@ -829,6 +762,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 5
   number: 1
   brickState: 1
 --- !u!1 &115435488
@@ -860,6 +794,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 2
   number: 89
   brickState: 1
 --- !u!61 &115435490
@@ -1051,6 +986,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 2
   number: 28
   brickState: 1
 --- !u!1 &140408881
@@ -1082,6 +1018,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 5
   number: 71
   brickState: 1
 --- !u!61 &140408883
@@ -1193,6 +1130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 3
   number: 76
   brickState: 1
 --- !u!61 &162909473
@@ -1481,6 +1419,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 5
   number: 3
   brickState: 1
 --- !u!1 &194705277
@@ -1592,6 +1531,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 5
   number: 8
   brickState: 1
 --- !u!1 &227247085
@@ -1703,6 +1643,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 2
   number: 32
   brickState: 1
 --- !u!1 &271336089
@@ -1831,6 +1772,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 4
   number: 87
   brickState: 1
 --- !u!61 &285973661
@@ -2022,6 +1964,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 3
   number: 15
   brickState: 1
 --- !u!1 &317053535
@@ -2390,6 +2333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 3
   number: 12
   brickState: 1
 --- !u!1 &393155479
@@ -2501,6 +2445,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 3
   number: 9
   brickState: 1
 --- !u!1 &405246389
@@ -2612,6 +2557,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 4
   number: 20
   brickState: 1
 --- !u!1 &414947505
@@ -2643,6 +2589,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 2
   number: 95
   brickState: 1
 --- !u!61 &414947507
@@ -2725,6 +2672,115 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 103
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &442381047
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 442381050}
+  - component: {fileID: 442381049}
+  - component: {fileID: 442381051}
+  - component: {fileID: 442381048}
+  m_Layer: 0
+  m_Name: multi_color_brick
+  m_TagString: multi_color_brick
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &442381048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 442381047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba76e8d5615081540b5cf9dfffd9c609, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!212 &442381049
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 442381047}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: b0f072fa468ea6a4889d086b6c8c334c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 18, y: 6}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!4 &442381050
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 442381047}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -45, y: 23.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 122
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &442381051
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 442381047}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 18, y: 6}
+    newSize: {x: 18, y: 6}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 18, y: 6}
+  m_EdgeRadius: 0
 --- !u!1 &450028777
 GameObject:
   m_ObjectHideFlags: 0
@@ -2834,6 +2890,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 5
   number: 2
   brickState: 1
 --- !u!1 &503690229
@@ -2945,6 +3002,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 4
   number: 24
   brickState: 1
 --- !u!1 &538021029
@@ -2976,6 +3034,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 2
   number: 94
   brickState: 1
 --- !u!61 &538021031
@@ -3087,6 +3146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 4
   number: 55
   brickState: 1
 --- !u!61 &551654183
@@ -3198,6 +3258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 4
   number: 83
   brickState: 1
 --- !u!61 &563182114
@@ -3486,6 +3547,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 4
   number: 22
   brickState: 1
 --- !u!1 &648625611
@@ -3597,6 +3659,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 4
   number: 17
   brickState: 1
 --- !u!1 &664119597
@@ -3628,6 +3691,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 5
   number: 68
   brickState: 1
 --- !u!61 &664119599
@@ -3819,6 +3883,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 2
   number: 31
   brickState: 1
 --- !u!1 &702387083
@@ -3930,6 +3995,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 3
   number: 13
   brickState: 1
 --- !u!1 &716979065
@@ -3961,6 +4027,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 5
   number: 38
   brickState: 1
 --- !u!61 &716979067
@@ -4249,6 +4316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 2
   number: 25
   brickState: 1
 --- !u!1 &730731818
@@ -4360,6 +4428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 4
   number: 21
   brickState: 1
 --- !u!1 &733767348
@@ -4391,6 +4460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 5
   number: 36
   brickState: 1
 --- !u!61 &733767350
@@ -4473,6 +4543,115 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &737970325
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 737970328}
+  - component: {fileID: 737970327}
+  - component: {fileID: 737970329}
+  - component: {fileID: 737970326}
+  m_Layer: 0
+  m_Name: multi_color_brick (3)
+  m_TagString: multi_color_brick
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &737970326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 737970325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba76e8d5615081540b5cf9dfffd9c609, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!212 &737970327
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 737970325}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: b0f072fa468ea6a4889d086b6c8c334c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 18, y: 6}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!4 &737970328
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 737970325}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -45, y: 76, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 125
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &737970329
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 737970325}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 18, y: 6}
+    newSize: {x: 18, y: 6}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 18, y: 6}
+  m_EdgeRadius: 0
 --- !u!1 &772435267
 GameObject:
   m_ObjectHideFlags: 0
@@ -4502,6 +4681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 2
   number: 59
   brickState: 1
 --- !u!61 &772435269
@@ -4725,6 +4905,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 5
   number: 39
   brickState: 1
 --- !u!61 &799500440
@@ -4836,6 +5017,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 3
   number: 44
   brickState: 1
 --- !u!61 &805592219
@@ -4947,6 +5129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 4
   number: 81
   brickState: 1
 --- !u!61 &826424806
@@ -5058,6 +5241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 3
   number: 75
   brickState: 1
 --- !u!61 &845962061
@@ -5169,6 +5353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 2
   number: 92
   brickState: 1
 --- !u!61 &853564427
@@ -5354,6 +5539,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 2
   number: 64
   brickState: 1
 --- !u!61 &876879519
@@ -5562,6 +5748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 4
   number: 50
   brickState: 1
 --- !u!61 &889340397
@@ -5804,6 +5991,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 4
   number: 54
   brickState: 1
 --- !u!61 &913889020
@@ -5915,6 +6103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 4
   number: 88
   brickState: 1
 --- !u!61 &919696163
@@ -6123,6 +6312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 5
   number: 69
   brickState: 1
 --- !u!61 &956339015
@@ -6205,6 +6395,115 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 77
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &958734522
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 958734525}
+  - component: {fileID: 958734524}
+  - component: {fileID: 958734526}
+  - component: {fileID: 958734523}
+  m_Layer: 0
+  m_Name: multi_color_brick (1)
+  m_TagString: multi_color_brick
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &958734523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 958734522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba76e8d5615081540b5cf9dfffd9c609, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!212 &958734524
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 958734522}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: b0f072fa468ea6a4889d086b6c8c334c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 18, y: 6}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!4 &958734525
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 958734522}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 45, y: 23.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 123
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &958734526
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 958734522}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 18, y: 6}
+    newSize: {x: 18, y: 6}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 18, y: 6}
+  m_EdgeRadius: 0
 --- !u!1 &968515495
 GameObject:
   m_ObjectHideFlags: 0
@@ -6314,6 +6613,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 3
   number: 11
   brickState: 1
 --- !u!1 &1049760931
@@ -6345,6 +6645,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 5
   number: 65
   brickState: 1
 --- !u!61 &1049760933
@@ -6456,6 +6757,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 5
   number: 35
   brickState: 1
 --- !u!61 &1061898383
@@ -6573,6 +6875,7 @@ MonoBehaviour:
   points: 0
   dir: {x: 0, y: 1}
   ballState: 2
+  ballColorState: 1
   pointsText: {fileID: 0}
 --- !u!58 &1079170258
 CircleCollider2D:
@@ -6693,6 +6996,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 5
   number: 40
   brickState: 1
 --- !u!61 &1093857854
@@ -6804,6 +7108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 3
   number: 46
   brickState: 1
 --- !u!61 &1104762825
@@ -6915,6 +7220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 3
   number: 80
   brickState: 1
 --- !u!61 &1138786083
@@ -7123,6 +7429,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 4
   number: 51
   brickState: 1
 --- !u!61 &1161658546
@@ -7314,6 +7621,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 3
   number: 14
   brickState: 1
 --- !u!1 &1192775891
@@ -7345,6 +7653,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 3
   number: 42
   brickState: 1
 --- !u!61 &1192775893
@@ -7456,6 +7765,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 5
   number: 33
   brickState: 1
 --- !u!61 &1197219203
@@ -7647,6 +7957,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 4
   number: 19
   brickState: 1
 --- !u!1 &1231858276
@@ -7678,6 +7989,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 3
   number: 77
   brickState: 1
 --- !u!61 &1231858278
@@ -7789,6 +8101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 2
   number: 57
   brickState: 1
 --- !u!61 &1239803738
@@ -8111,6 +8424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 2
   number: 30
   brickState: 1
 --- !u!1 &1287730737
@@ -8142,6 +8456,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 2
   number: 62
   brickState: 1
 --- !u!61 &1287730739
@@ -8253,6 +8568,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 3
   number: 43
   brickState: 1
 --- !u!61 &1291076071
@@ -8444,6 +8760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 2
   number: 27
   brickState: 1
 --- !u!1 &1340239543
@@ -8475,6 +8792,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 3
   number: 48
   brickState: 1
 --- !u!61 &1340239545
@@ -8586,6 +8904,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 4
   number: 53
   brickState: 1
 --- !u!61 &1346447436
@@ -8697,6 +9016,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 4
   number: 85
   brickState: 1
 --- !u!61 &1363604765
@@ -8888,6 +9208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 3
   number: 10
   brickState: 1
 --- !u!1 &1396743257
@@ -8919,6 +9240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 3
   number: 41
   brickState: 1
 --- !u!61 &1396743259
@@ -9030,6 +9352,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 3
   number: 74
   brickState: 1
 --- !u!61 &1406246458
@@ -9243,6 +9566,77 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 120
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1437182217
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1437182219}
+  - component: {fileID: 1437182218}
+  m_Layer: 0
+  m_Name: info
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1437182218
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1437182217}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 1881472077
+  m_SortingLayer: 2
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 6127e31e3ac952b46aecc9f268b9cc2a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 233, y: 205}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!4 &1437182219
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1437182217}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 158, y: 26, z: 0}
+  m_LocalScale: {x: 0.6742767, y: 0.67459947, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 121
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1452486535
 GameObject:
   m_ObjectHideFlags: 0
@@ -9352,6 +9746,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 2
   number: 29
   brickState: 1
 --- !u!1 &1455499918
@@ -9611,6 +10006,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 5
   number: 70
   brickState: 1
 --- !u!61 &1470175070
@@ -9722,6 +10118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 4
   number: 82
   brickState: 1
 --- !u!61 &1472914477
@@ -9833,6 +10230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 5
   number: 72
   brickState: 1
 --- !u!61 &1480115840
@@ -9944,6 +10342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 2
   number: 90
   brickState: 1
 --- !u!61 &1510140464
@@ -10129,6 +10528,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 5
   number: 67
   brickState: 1
 --- !u!61 &1550963232
@@ -10240,6 +10640,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 4
   number: 86
   brickState: 1
 --- !u!61 &1553286928
@@ -10505,6 +10906,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 5
   number: 4
   brickState: 1
 --- !u!1 &1576832428
@@ -10536,6 +10938,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 4
   number: 56
   brickState: 1
 --- !u!61 &1576832430
@@ -10727,6 +11130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 5
   number: 7
   brickState: 1
 --- !u!1 &1629053160
@@ -11085,6 +11489,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 2
   number: 61
   brickState: 1
 --- !u!212 &1658328073
@@ -11251,6 +11656,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 4
   number: 23
   brickState: 1
 --- !u!1 &1679070224
@@ -11362,6 +11768,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 2
   number: 26
   brickState: 1
 --- !u!1 &1718837243
@@ -11393,6 +11800,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 3
   number: 47
   brickState: 1
 --- !u!61 &1718837245
@@ -11504,6 +11912,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 2
   number: 63
   brickState: 1
 --- !u!61 &1727515435
@@ -11586,6 +11995,115 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1729786067
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1729786070}
+  - component: {fileID: 1729786069}
+  - component: {fileID: 1729786071}
+  - component: {fileID: 1729786068}
+  m_Layer: 0
+  m_Name: multi_color_brick (2)
+  m_TagString: multi_color_brick
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1729786068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1729786067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba76e8d5615081540b5cf9dfffd9c609, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!212 &1729786069
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1729786067}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: b0f072fa468ea6a4889d086b6c8c334c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 18, y: 6}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!4 &1729786070
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1729786067}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 45, y: 76, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 124
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1729786071
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1729786067}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 18, y: 6}
+    newSize: {x: 18, y: 6}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 18, y: 6}
+  m_EdgeRadius: 0
 --- !u!1 &1756795175
 GameObject:
   m_ObjectHideFlags: 0
@@ -11615,6 +12133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 2
   number: 93
   brickState: 1
 --- !u!61 &1756795177
@@ -11726,6 +12245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 3
   number: 79
   brickState: 1
 --- !u!61 &1762286857
@@ -11837,6 +12357,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 3
   number: 78
   brickState: 1
 --- !u!61 &1767966643
@@ -11948,6 +12469,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 4
   number: 52
   brickState: 1
 --- !u!61 &1768508933
@@ -12156,6 +12678,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 2
   number: 58
   brickState: 1
 --- !u!61 &1807721999
@@ -12267,6 +12790,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 4
   number: 84
   brickState: 1
 --- !u!61 &1823722603
@@ -12378,6 +12902,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 3
   number: 45
   brickState: 1
 --- !u!61 &1825505379
@@ -12489,6 +13014,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 4
   number: 49
   brickState: 1
 --- !u!61 &1826106491
@@ -12777,6 +13303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 5
   number: 6
   brickState: 1
 --- !u!1 &1912762188
@@ -12905,6 +13432,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 5
   number: 34
   brickState: 1
 --- !u!61 &1952959472
@@ -13019,7 +13547,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 342.2, y: -32}
+  m_AnchoredPosition: {x: 342.2, y: -17.924}
   m_SizeDelta: {x: 192.59998, y: 35.849}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1964092147
@@ -13092,6 +13620,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 2
   number: 91
   brickState: 1
 --- !u!61 &1994011894
@@ -13203,6 +13732,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 2
   number: 60
   brickState: 1
 --- !u!61 &1996246584
@@ -13411,6 +13941,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 5
   number: 37
   brickState: 1
 --- !u!61 &2110380069
@@ -13602,6 +14133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 4
   number: 18
   brickState: 1
 --- !u!1 &2113555409
@@ -13803,6 +14335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a470f683dcac4479d53507c3428760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brickColorState: 3
   number: 73
   brickState: 1
 --- !u!61 &2143429038

@@ -8,6 +8,7 @@ public class Brick : MonoBehaviour {
 
 	private GameObject[] gameObjectArray = new GameObject[4];
 
+	public BallCollisionManager.ColorState brickColorState;
 	public int number;
 	public BallCollisionManager.BrickState brickState = BallCollisionManager.BrickState.GOOD;
 
@@ -19,7 +20,8 @@ public class Brick : MonoBehaviour {
 	}
 
 	void OnCollisionEnter2D(Collision2D col){
-		if(col.gameObject.tag == "ball"){
+		if(col.gameObject.tag == "ball" && (col.gameObject.GetComponent<Ball> ().ballColorState == brickColorState || col.gameObject.GetComponent<Ball> ().ballColorState == BallCollisionManager.ColorState.NEUTRAL)){
+			//TODO: need to compare the brick and ball color, if the ball color is no neutral and not the same color than the brick, the brick will not break
 			if (col.gameObject.GetComponent<Ball> ().ballState == BallCollisionManager.BallDensity.NORMAL) {
 				breakBrick ();
 			}else if(col.gameObject.GetComponent<Ball> ().ballState == BallCollisionManager.BallDensity.HARD){

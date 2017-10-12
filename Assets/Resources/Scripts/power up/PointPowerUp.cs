@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PointPowerUp : MonoBehaviour {
 
+	private BallCollisionManager bcm = BallCollisionManager.getInstance();
+
 	public GameObject ball;
 
 	// Use this for initialization
@@ -22,7 +24,7 @@ public class PointPowerUp : MonoBehaviour {
 			Physics2D.IgnoreCollision (col.gameObject.GetComponent<Collider2D> (),GetComponent<Collider2D> ());
 		}else if(col.gameObject.tag == "racket"){
 			if (ball != null) 
-				ball.GetComponent<Ball> ().pointGain = 300;
+				ball.GetComponent<Ball> ().pointGain = bcm.getRand(-500,501);
 				Destroy (gameObject);
 		}
 	}
