@@ -12,6 +12,8 @@ public class BallCollisionManager{
 	private static int[] TOP_BRICKS_MID_LINE = { 33, 34, 35, 36, 37, 38, 39, 40 };
 	private static int[] TOP_BRICKS_BOTTOM_LINE = { 65, 66, 67, 68, 69, 70, 71, 72 };
 
+	private System.Random rand;
+
 //	private static int TOTAL_BRICKS = 96;
 
 	public enum BrickState
@@ -25,6 +27,7 @@ public class BallCollisionManager{
 	}; 
 
 	private BallCollisionManager(){
+		rand = new System.Random();
 	}
 
 	public static BallCollisionManager getInstance(){
@@ -82,4 +85,8 @@ public class BallCollisionManager{
 		return null; //NULL VALUE DANGER!!!!
 	}
 		
+	public int getRand(int min, int max){
+		return rand.Next (min, max);
+	}
+
 }

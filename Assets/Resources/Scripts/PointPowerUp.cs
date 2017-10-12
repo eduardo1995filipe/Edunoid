@@ -21,9 +21,9 @@ public class PointPowerUp : MonoBehaviour {
 			col.gameObject.tag == "ball"){
 			Physics2D.IgnoreCollision (col.gameObject.GetComponent<Collider2D> (),GetComponent<Collider2D> ());
 		}else if(col.gameObject.tag == "racket"){
-			ball.GetComponent<Ball> ().pointGain = 300;
-			Destroy (gameObject);
-			//TODO: programar aqui a funcionalidade do power up
+			if (ball != null) 
+				ball.GetComponent<Ball> ().pointGain = 300;
+				Destroy (gameObject);
 		}
 	}
 }

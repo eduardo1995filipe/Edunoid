@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class SpeedPowerUp : MonoBehaviour {
 
+	BallCollisionManager bcm = BallCollisionManager.getInstance();
+
 	public GameObject ball;
 
 	void Start () {
@@ -21,7 +23,8 @@ public class SpeedPowerUp : MonoBehaviour {
 			Physics2D.IgnoreCollision (col.gameObject.GetComponent<Collider2D> (),GetComponent<Collider2D> ());
 		}else if(col.gameObject.tag == "racket"){
 			Destroy (gameObject);
-			ball.GetComponent<Ball> ().updateVelocity (200);
+			if (ball != null) 
+				ball.GetComponent<Ball> ().updateVelocity (bcm.getRand (40, 260));
 		}
 	}
 }

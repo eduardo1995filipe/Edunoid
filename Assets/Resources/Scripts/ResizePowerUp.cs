@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ResizePowerUp : MonoBehaviour {
+	
+	BallCollisionManager bcm = BallCollisionManager.getInstance();
 
 	public GameObject racket;
 
@@ -26,8 +28,30 @@ public class ResizePowerUp : MonoBehaviour {
 			col.gameObject.tag == "ball"){
 			Physics2D.IgnoreCollision (col.gameObject.GetComponent<Collider2D> (),GetComponent<Collider2D> ());
 		}else if(col.gameObject.tag == "racket"){
-			//TODO: mudar o tamanho da racket ate perder a vida
-			racket.GetComponent<SpriteRenderer> ().sprite = Resources.Load<Sprite>("Sprites/racket/racket_largest");
+			int num = bcm.getRand (1, 6);
+			Sprite sprite;
+			switch (num){
+			case 1:
+				sprite = Resources.Load<Sprite>("Sprites/racket/racket_micro");
+				break;
+			case 2:
+				sprite = Resources.Load<Sprite>("Sprites/racket/racket_small");
+				break;
+			case 3:
+				sprite = Resources.Load<Sprite>("Sprites/racket/racket_normal");
+				break;
+			case 4:
+				sprite = Resources.Load<Sprite>("Sprites/racket/racket_large");
+				break;
+			case 5:
+				sprite = Resources.Load<Sprite>("Sprites/racket/racket_largest");
+				break;
+			default:
+				print ("UNKNOWN_ERROR_RESIZE_POWER_SWITCH_CASE");
+				sprite = Resources.Load<Sprite>("Sprites/racket/racket_normal");
+				break;
+			}
+			racket.GetComponent<SpriteRenderer> ().sprite = sprite;
 			Destroy (racket.GetComponent<BoxCollider2D> ());
 			racket.AddComponent<BoxCollider2D> ();
 			Destroy (gameObject);

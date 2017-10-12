@@ -26,6 +26,8 @@ public class Ball : MonoBehaviour {
 		} else if (col.gameObject.tag == "end_life_wall" && gameObject != null) {
 			gameObject.transform.position = new Vector2 (0, -106);
 			gameObject.GetComponent<Rigidbody2D> ().velocity = Vector2.up * (speed = 100);
+			ballState = BallCollisionManager.BallDensity.NORMAL;
+			GetComponent<SpriteRenderer> ().sprite = Resources.Load<Sprite> ("Sprites/ball/Neutral/neutral_ball_2");
 		} else if(col.gameObject.tag == "normal_brick") {
 			points += pointGain;
 			pointsText.text = points.ToString (); 

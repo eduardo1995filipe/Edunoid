@@ -19,7 +19,10 @@ public class KillerWall : MonoBehaviour {
 		if(col.gameObject.tag == "ball"){
 			if ((numLivesLeft--) > 0) {
 				livesLeftText.text = numLivesLeft.ToString ();
-			} 
+				racket.GetComponent<SpriteRenderer> ().sprite = Resources.Load<Sprite>("Sprites/racket/racket_normal");
+				Destroy (racket.GetComponent<BoxCollider2D> ());
+				racket.AddComponent<BoxCollider2D> ();
+			}
 			else
 				Destroy (col.gameObject);
 			racket.transform.position = new Vector2 (0, -117);
