@@ -95,23 +95,29 @@ public class BallCollisionManager{
 		return rand.Next (min, max);
 	}
 
-	public void changeBallColor(GameObject ball, ColorState state){
+	public void changeBallColor(GameObject ball, ColorState state, BallDensity ballState){
+		int num = 2;
+		if (ballState == BallDensity.HARD)
+			num = 4;
+		else if (ballState == BallDensity.SOFT)
+			num = 1;
+		
 		if(ball.tag == "ball"){
-			Sprite sprite = Resources.Load<Sprite> ("Sprites/ball/Neutral/neutral_ball_2");
+			Sprite sprite = Resources.Load<Sprite> ("Sprites/ball/Neutral/neutral_ball_" + num.ToString());
 			switch(state){
 			case ColorState.NEUTRAL:
 				break;
 			case ColorState.RED:
-				sprite = Resources.Load<Sprite> ("Sprites/ball/Red/red_ball_2");
+				sprite = Resources.Load<Sprite> ("Sprites/ball/Red/red_ball_"  + num.ToString());
 				break;
 			case ColorState.BLUE:
-				sprite = Resources.Load<Sprite> ("Sprites/ball/Blue/blue_ball_2");
+				sprite = Resources.Load<Sprite> ("Sprites/ball/Blue/blue_ball_"  + num.ToString());
 				break;
 			case ColorState.GREEN:
-				sprite = Resources.Load<Sprite> ("Sprites/ball/Green/green_ball_2");
+				sprite = Resources.Load<Sprite> ("Sprites/ball/Green/green_ball_"  + num.ToString());
 				break;
 			case ColorState.YELLOW:
-				sprite = Resources.Load<Sprite> ("Sprites/ball/Yellow/yellow_ball_2");
+				sprite = Resources.Load<Sprite> ("Sprites/ball/Yellow/yellow_ball_"  + num.ToString());
 				break;
 			default:
 				break;

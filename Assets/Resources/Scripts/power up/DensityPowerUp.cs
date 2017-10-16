@@ -30,13 +30,26 @@ public class DensityPowerUp : MonoBehaviour {
 		}else if(col.gameObject.tag == "racket"){
 			if (ball != null) {
 				int num = bcm.getRand (0, 2);
+				string path = "Sprites/ball/Neutral/neutral_ball_";
+
+				BallCollisionManager.ColorState state = ball.GetComponent<Ball> ().ballColorState;
+
+				if (state == BallCollisionManager.ColorState.RED)
+					path = "Sprites/ball/Red/red_ball_";
+				else if (state == BallCollisionManager.ColorState.BLUE)
+					path = "Sprites/ball/Blue/blue_ball_";
+				else if (state == BallCollisionManager.ColorState.GREEN)
+					path = "Sprites/ball/Green/green_ball_";
+				else if (state == BallCollisionManager.ColorState.YELLOW)
+					path = "Sprites/ball/Yellow/yellow_ball_";
+				
 				if (num == 1) {
 					ball.GetComponent<Ball> ().ballState = BallCollisionManager.BallDensity.HARD;
-					ball.GetComponent<SpriteRenderer> ().sprite = Resources.Load<Sprite> ("Sprites/ball/Neutral/neutral_ball_4");
+					ball.GetComponent<SpriteRenderer> ().sprite = Resources.Load<Sprite> (path + "4");
 					Destroy (gameObject);
 				} else {
 					ball.GetComponent<Ball> ().ballState = BallCollisionManager.BallDensity.SOFT;
-					ball.GetComponent<SpriteRenderer> ().sprite = Resources.Load<Sprite> ("Sprites/ball/Neutral/neutral_ball_1");
+					ball.GetComponent<SpriteRenderer> ().sprite = Resources.Load<Sprite> (path + "1");
 					Destroy (gameObject);
 				}
 			}

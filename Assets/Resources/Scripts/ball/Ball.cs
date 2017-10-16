@@ -36,10 +36,9 @@ public class Ball : MonoBehaviour {
 			points += pointGain;
 			pointsText.text = points.ToString (); 
 		} else if(col.gameObject.tag == "multi_color_brick") {
+
 			//TODO: add ball density to ball of different color
-			ballState = BallCollisionManager.BallDensity.NORMAL;
-			ballColorState = bcm.getRandomColor();
-			bcm.changeBallColor (gameObject, ballColorState);
+			StartCoroutine(colorPowerUp());
 		}
 	}
 
@@ -58,5 +57,13 @@ public class Ball : MonoBehaviour {
 			GetComponent<Rigidbody2D> ().velocity = (GetComponent<Rigidbody2D> ().velocity * newSpeed) / this.speed; 
 			this.speed = newSpeed;
 		}
+	}
+
+	IEnumerator colorPowerUp(){
+		ballColorState = bcm.getRandomColor();
+		bcm.changeBallColor (gameObject, ballColorState, ballState);
+		yield return new WaitForSeconds (6);
+		ballColorState = BallCollisionManager.ColorState.NEUTRAL;
+		bcm.changeBallColor (gameObject, BallCollisionManager.ColorState.NEUTRAL, ballState);
 	}
 }
