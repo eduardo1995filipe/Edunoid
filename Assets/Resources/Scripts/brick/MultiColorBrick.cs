@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class MultiColorBrick : MonoBehaviour {
 
+
+
 	// Use this for initialization
 	void Start () {
-		
 	}
 	
 	// Update is called once per frame

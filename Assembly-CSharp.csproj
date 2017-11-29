@@ -61,6 +61,7 @@
      <Compile Include="Assets\Resources\Scripts\power up\ResizePowerUp.cs" />
      <Compile Include="Assets\Resources\Scripts\power up\SpeedPowerUp.cs" />
      <Compile Include="Assets\Resources\Scripts\Racket.cs" />
+     <Compile Include="Assets\Resources\Scripts\TestClass.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
