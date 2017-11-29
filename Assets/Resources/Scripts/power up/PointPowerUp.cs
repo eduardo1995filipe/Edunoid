@@ -31,10 +31,10 @@ public class PointPowerUp : MonoBehaviour
 		}
 		else if(col.gameObject.tag == "racket")
 		{
-			if (ball != null) //DANGER ZONE - MIGHT HAVE ERRORS
+			if (ball != null && !ball.GetComponent<Ball> ().onPointPowerUp) //DANGER ZONE - MIGHT HAVE ERRORS
 			{ 
-				ball.GetComponent<Ball> ().pointGain = bcm.getRand(POINT_GAIN_INFERIOR_LIMIT,POINT_GAIN_SUPERIOR_LIMIT);
-				ball.GetComponent<Ball> ().onPointPowerUp = true;
+					ball.GetComponent<Ball> ().onPointPowerUp = true;
+					ball.GetComponent<Ball> ().pointGain = bcm.getRand(POINT_GAIN_INFERIOR_LIMIT,POINT_GAIN_SUPERIOR_LIMIT);
 			}
 			Destroy (gameObject);
 		}

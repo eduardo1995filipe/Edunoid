@@ -14,7 +14,7 @@ public class Ball : MonoBehaviour
 	public float speed = DEFAULT_SPEED;
 	public int pointGain = DEFAULT_POINT_GAIN;
 	public bool onPointPowerUp = false;
-	private int pointPowerUpIterator = 0; //iterator, at 10 blocks hit the point gain returns to normal
+	public int pointPowerUpIterator = 0; //iterator, at 10 blocks hit the point gain returns to normal
 	public int points = 0;
 	public Vector2 dir = Vector2.up;
 	public BallCollisionManager.BallDensity ballState = BallCollisionManager.BallDensity.NORMAL;
@@ -44,23 +44,21 @@ public class Ball : MonoBehaviour
 			ballColorState = BallCollisionManager.ColorState.NEUTRAL;
 			GetComponent<SpriteRenderer> ().sprite = Resources.Load<Sprite> ("Sprites/ball/Neutral/neutral_ball_2");
 		} 
-		else if(col.gameObject.tag == "normal_brick") 
+		else if(col.gameObject.tag == "brick")
 		{
-			if(pointPowerUpIterator < POINT_POWER_UP_BLOCK_LIMIT)
-			{
-				points += pointGain;
-				pointsText.text = points.ToString ();
-				++pointPowerUpIterator; 
-			}
-			else
-			{
-				pointGain = DEFAULT_POINT_GAIN;
-				pointPowerUpIterator = 0;
-			}
-		} 
+			// if(pointPowerUpIterator++ < POINT_POWER_UP_BLOCK_LIMIT)
+			// {
+			// 	points += pointGain;
+			// 	pointsText.text = points.ToString ();
+			// }
+			// else
+			// {
+			// 	pointGain = DEFAULT_POINT_GAIN;
+			// 	pointPowerUpIterator = 0;
+			// }
+		}
 		else if(col.gameObject.tag == "multi_color_brick") 
 		{
-
 			//TODO: add ball density to ball of different color
 			StartCoroutine(colorPowerUp());
 		}
@@ -95,5 +93,22 @@ public class Ball : MonoBehaviour
 		yield return new WaitForSeconds (6);
 		ballColorState = BallCollisionManager.ColorState.NEUTRAL;
 		bcm.changeBallColor (gameObject, BallCollisionManager.ColorState.NEUTRAL, ballState);
+	}
+
+	public void onBrickBreak()
+	{
+		if(onPointPowerUp)
+		{
+			if(pointPowerUpIterator == POINT_POWER_UP_BLOCK_LIMIT)
+			{
+				pointGain = DEFAULT_POINT_GAIN;
+				pointPowerUpIterator = 0;
+				onPointPowerUp = false;
+			}
+			else
+				++pointPowerUpIterator;
+		}
+		points += pointGain;
+		pointsText.text = points.ToString ();	
 	}
 }
